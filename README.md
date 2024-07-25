@@ -34,7 +34,7 @@ Run the app:
 flutter pub get
 flutter run
  ```
-# Usage
+## Usage
 Open the app on your mobile device or emulator.
 
 Activate localization settings.
