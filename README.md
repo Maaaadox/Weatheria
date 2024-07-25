@@ -1,5 +1,5 @@
-# weatheria
-weatheria app is a simple and user-friendly application that provides real-time weather updates. It fetches data from a reliable weather APIs and displays current weather conditions, forecasts, and other relevant information. The app is built using Flutter, ensuring a seamless experience across both Android and iOS devices.
+# Weatheria
+Weatheria app is a simple and user-friendly application that provides real-time weather updates. It fetches data from a reliable weather APIs and displays current weather conditions, forecasts, and other relevant information. The app is built using Flutter, ensuring a seamless experience across both Android and iOS devices.
 
 ## Features
 - Current weather conditions
@@ -34,7 +34,7 @@ Run the app:
 flutter pub get
 flutter run
  ```
-## Usage
+# Usage
 Open the app on your mobile device or emulator.
 
 Activate localization settings.
@@ -53,13 +53,10 @@ Weatheria needs some fixes and additions :
 
 2 - IOS version.
 
-3 - responsivness for small phones
+3 - responsivness for small phones.
 
 feel free to contribute with any add ups !
 
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
 weatherapi for the weather data API.
