@@ -24,7 +24,7 @@ Install Flutter by following the official installation guide.
 
 Get an API key from weatherapi .
 
-Create a cfg.env file in the root directory and add your API key:
+Create a .env file in the root directory and add your API key:
  ```
 APIKEY=your_api_key
  ```
