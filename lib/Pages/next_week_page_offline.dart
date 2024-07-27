@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weatheria/components/widgets.dart';
+import 'package:weatheria/Widgets/components/Shimmer.dart';
 
 class NextWeekOffline extends StatefulWidget {
   const NextWeekOffline({super.key});

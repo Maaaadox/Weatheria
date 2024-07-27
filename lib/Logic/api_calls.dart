@@ -4,7 +4,9 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:geolocator/geolocator.dart';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:weatheria/components/weather.dart';
+import 'package:weatheria/models/CurrentWeatherModel.dart';
+import 'package:weatheria/models/ForecastWeatherModel.dart';
+
 
 // first api call ,calls about current weather infos
 

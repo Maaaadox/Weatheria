@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:weatheria/home_page.dart';
+import 'package:weatheria/Pages/home_page.dart';
 
 Future main() async {
   await dotenv.load(fileName: ".env");

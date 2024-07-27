@@ -2,13 +2,19 @@ import 'dart:core';
 import 'package:intl/intl.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:weatheria/components/functions.dart';
-import 'package:weatheria/components/home_page_offline.dart';
-import 'package:weatheria/next_Days_page.dart';
-import 'package:weatheria/components/api_calls.dart';
-import 'package:weatheria/components/weather.dart';
-import 'package:weatheria/components/widgets.dart';
-import 'package:weatheria/components/sections.dart';
+import 'package:weatheria/Logic/functions.dart';
+import 'package:weatheria/Pages/home_page_offline.dart';
+import 'package:weatheria/Widgets/components/GradientText.dart';
+import 'package:weatheria/Widgets/components/InfoBox.dart';
+import 'package:weatheria/Widgets/Sections/Header.dart';
+import 'package:weatheria/Widgets/Sections/TodaySection.dart';
+import 'package:weatheria/Widgets/components/StyledText.dart';
+import 'package:weatheria/Pages/next_Days_page.dart';
+import 'package:weatheria/Logic/api_calls.dart';
+import 'package:weatheria/models/CurrentWeatherModel.dart';
+import 'package:weatheria/models/SearchLocationModel.dart';
+
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
