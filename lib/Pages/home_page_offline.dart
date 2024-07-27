@@ -170,7 +170,7 @@ class _HomePageOfflineState extends State<HomePageOffline> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     SizedBox(
-                      width: 155,
+                      width: 148,
                       child: Row(
                         children: [
                           ShimmerLoading(
@@ -220,7 +220,7 @@ class _HomePageOfflineState extends State<HomePageOffline> {
                       ),
                     ),
                     SizedBox(
-                      width: 155,
+                      width: 148,
                       child: Row(
                         children: [
                           ShimmerLoading(
@@ -276,7 +276,7 @@ class _HomePageOfflineState extends State<HomePageOffline> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     SizedBox(
-                      width: 155,
+                      width: 148,
                       child: Row(
                         children: [
                           ShimmerLoading(
@@ -326,7 +326,7 @@ class _HomePageOfflineState extends State<HomePageOffline> {
                       ),
                     ),
                     SizedBox(
-                      width: 155,
+                      width: 148,
                       child: Row(
                         children: [
                           ShimmerLoading(
@@ -382,7 +382,7 @@ class _HomePageOfflineState extends State<HomePageOffline> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     SizedBox(
-                      width: 155,
+                      width: 148,
                       child: Row(
                         children: [
                           ShimmerLoading(
@@ -432,7 +432,7 @@ class _HomePageOfflineState extends State<HomePageOffline> {
                       ),
                     ),
                     SizedBox(
-                      width: 155,
+                      width: 148,
                       child: Row(
                         children: [
                           ShimmerLoading(

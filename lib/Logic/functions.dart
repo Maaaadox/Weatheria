@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart';
+
 String getAnimation(String condition, int isDay) {
   const assets = "assets/lottie";
 
@@ -187,4 +189,9 @@ String getAnimation(String condition, int isDay) {
     default:
       return '$assets/not-available.json';
   }
+}
+
+int dateComparer(String time) {
+  return (DateFormat('Hm').format(DateTime.now()))
+      .compareTo(DateFormat.Hm().format(DateFormat("hh:mm").parse(time)));
 }

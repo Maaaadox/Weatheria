@@ -7,10 +7,10 @@ import 'package:http/http.dart' as http;
 import 'package:weatheria/models/CurrentWeatherModel.dart';
 import 'package:weatheria/models/ForecastWeatherModel.dart';
 
-
 // first api call ,calls about current weather infos
 
 Future<CurrentWeather> fetchWeather(String city) async {
+  print(dotenv.env['APIKEY']);
   LocationPermission permission;
   final http.Response response;
 
@@ -27,7 +27,7 @@ Future<CurrentWeather> fetchWeather(String city) async {
         'http://api.weatherapi.com/v1/forecast.json?key=${dotenv.env['APIKEY']}&q=${city}&days=1&aqi=no&alerts=no'));
   } else {
     response = await http.get(Uri.parse(
-        'http://api.weatherapi.com/v1/forecast.json?key=ff3e6f69725345f5aa7130315241006&q=${location.latitude},${location.longitude}&days=1&aqi=no&alerts=no'));
+        'http://api.weatherapi.com/v1/forecast.json?key=${dotenv.env['APIKEY']}&q=${location.latitude},${location.longitude}&days=1&aqi=no&alerts=no'));
   }
 
   if (response.statusCode == 200) {
