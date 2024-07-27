@@ -1,7 +1,7 @@
 import 'dart:core';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:weatheria/components/widgets.dart';
+import 'package:weatheria/Widgets/components/Shimmer.dart';
 
 class HomePageOffline extends StatefulWidget {
   const HomePageOffline({super.key});

@@ -2,10 +2,13 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-import 'package:weatheria/components/api_calls.dart';
-import 'package:weatheria/components/weather.dart';
-import 'package:weatheria/components/next_week_page_offline.dart';
-import 'package:weatheria/components/widgets.dart';
+import 'package:weatheria/Logic/api_calls.dart';
+import 'package:weatheria/Widgets/components/NextDaysList.dart';
+import 'package:weatheria/Widgets/components/StyledText.dart';
+import 'package:weatheria/models/ForecastWeatherModel.dart';
+import 'package:weatheria/models/NextDaysmModel.dart';
+
+import 'package:weatheria/Pages/next_week_page_offline.dart';
 
 import 'dart:async';
 
